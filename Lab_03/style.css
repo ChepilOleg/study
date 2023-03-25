@@ -1,0 +1,29 @@
+.Lab1
+{
+    height: 200px;
+    width: 200px;
+}
+.blok1
+{
+    border: solid 3px #000;
+}
+.blok2
+{
+    border: solid 3px #000;
+    width: 720px;
+}
+.img
+{
+    height: 200px;
+    width: 200px;
+}
+.link2
+{
+    text-align: center;
+}
+.link
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+}
