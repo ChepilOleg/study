@@ -1,0 +1,35 @@
+.div_main
+{
+    width: 240px;
+    border: solid 1px #000;
+    background: whitesmoke;
+    border-radius: 10px;
+    font-size: 10px;
+}
+.div_left
+{
+    text-align: left;
+    width: 90px;
+    margin-left: 10px;
+}
+.div_right
+{
+    text-align: right;
+    width: 130px;
+}
+.inline_bloc
+{
+    margin-top: 20px;
+    display: inline-block;
+}
+img
+{
+    width: 220px;
+    height: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: solid 1PX whitesmoke;
+    border-radius: 10px ;
+}

@@ -1,0 +1,38 @@
+.button
+{
+ border: solid 1px gray;
+ width: 90px;
+ height: 30px;
+ display: inline-block;
+ margin-bottom: 5px;
+ border-radius: 10px;
+ box-shadow: 0px 0px 1px 1px rgb(184, 184, 184);
+}
+.button a
+{
+ font-size: 15px;
+}
+.by
+{
+ margin-left: 20px;
+ background-color: rgb(243, 251, 243);
+}
+.delite
+{
+ margin-left: 20px;
+ background-color: rgb(252, 238, 238);
+}
+.delite:hover
+{
+    border-color: red;
+    color: red;
+    box-shadow: 0px 0px 50px 0px red;
+    transition: 0.5s;
+}
+.by:hover
+{
+    border-color: green;
+    color: green;
+    box-shadow: 0px 0px 50px 0px green;
+    transition: 0.5s;
+}
