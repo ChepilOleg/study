@@ -1,0 +1,21 @@
+div.left {
+    float: left;
+    margin: 0 10px 5px 0;
+    text-align: center;
+    border: 1px solid black;
+  }
+.element::after
+{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left p{
+    margin: 1px;
+}
+h2{
+    font-size: 30px;
+    color: white;
+    background-color: blueviolet;
+    border: solid 1px black;
+}

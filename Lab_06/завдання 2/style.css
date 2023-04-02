@@ -1,0 +1,19 @@
+div{
+    border: solid 1px black;
+    padding: 5px;
+}
+header{
+    display: flex;
+}
+.additional-section{
+    float: left;
+    width: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.footer-2{
+    float: right;
+    width: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+}

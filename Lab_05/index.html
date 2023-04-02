@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modal</title>
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="../Lab_04/button.css">
+</head>
+<body>
+    <div>
+        <button class="oppen-modal-window">Відкрити модальне вкно</button>
+    </div>
+    <div class="modal-window">
+            <div class="header">
+                <a>Якийсь текст</a>
+                <button class="close-modal-window">
+                    X
+                </button>
+            </div>
+            <div>
+                <form>
+                    <p>Виробник/Модель<br><input list="NM" name="name" placeholder="Виробник/Модель"></p>
+                    <p>Процесор (модель)<br><input type="text" name="proc" placeholder="Процесор"></p>
+                    <p>Оперативна пам’ять, ГБ<br><input type="text" name="gb" placeholder="Оперативна пам’ять"></p>
+                    <p>Слоти для дисків<br><input type="text" name="disk" placeholder="Слоти для дисків"></p>
+                    <p>Роз’єми LAN<br><input type="text" name="LAN" placeholder="Роз’єми LAN"></p>
+                    <p><img src="" alt="" class="Wimg"><br>Мсце для картинки</p>
+                    <p><br><input type="file" name="img" placeholder=""></p>
+                    <button class="button next" >далі</button>
+                    <datalist id="NM">
+                        <option>Synology </option>
+                        <option>Qnap</option>
+                        <option>Netgear</option>
+                    </datalist>
+                </form>
+            </div>
+            <script src="modal.js"></script>
+    </div>
+</body>
+</html>
